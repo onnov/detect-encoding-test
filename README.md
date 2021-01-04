@@ -1,0 +1,1 @@
+# Tests and examples for the project: `onnov/detect-encoding`

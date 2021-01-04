@@ -1,0 +1,41 @@
+{
+  "name": "onnov/detect-encoding-test",
+  "keywords": [
+    "mb_detect_encoding",
+    "encoding",
+    "utf-8",
+    "windows-1251",
+    "koi8-r",
+    "iso-8859-5",
+    "ibm866",
+    "cyrillic",
+    "iconv"
+  ],
+  "homepage": "https://github.com/onnov/detect-encoding-test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "onnov",
+      "email": "oblnn@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "onnov/detect-encoding": "dev-master"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:onnov/detect-encoding.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
